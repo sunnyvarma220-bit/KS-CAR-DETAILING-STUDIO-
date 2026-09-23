@@ -1,52 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>KS Car Detailing Studio</title>
+
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0b0f14;color:#fff;display:flex;justify-content:center;min-height:100vh}
-.wrap{width:min(520px,100%);padding:28px 18px 36px;text-align:center}
-.logo{font-size:34px;font-weight:800;letter-spacing:2px;margin-top:12px}
-.sub{color:#aab5c3;margin:8px 0 26px}
-a{display:block;text-decoration:none;color:#fff;padding:18px 18px;margin:12px 0;border-radius:16px;font-size:18px;font-weight:750;border:1px solid #2b3542;background:#151c25}
-a small{display:block;font-size:13px;font-weight:500;color:#aab5c3;margin-top:4px}
-.pay{background:#0b6b45;border-color:#16885a}
-.review{background:#8a6510}.insta{background:#7d2a62}.yt{background:#8f1f1f}.maps{background:#164f85}
-.footer{margin-top:25px;color:#7f8b99;font-size:12px}
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:#0b1220;
+  color:white;
+}
+
+.container{
+  max-width:520px;
+  margin:auto;
+  padding:35px 20px 45px;
+  text-align:center;
+}
+
+.logo{
+  width:90px;
+  height:90px;
+  margin:auto;
+  border-radius:24px;
+  background:linear-gradient(135deg,#1e6cff,#0b2d68);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:32px;
+  font-weight:900;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+h1{
+  margin:18px 0 6px;
+  font-size:27px;
+}
+
+.subtitle{
+  color:#aeb9cc;
+  font-size:14px;
+  margin-bottom:28px;
+}
+
+.button{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  text-decoration:none;
+  color:#111;
+  background:white;
+  border-radius:17px;
+  padding:16px 18px;
+  margin:13px 0;
+  font-size:16px;
+  font-weight:750;
+  box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.icon{
+  width:42px;
+  height:42px;
+  border-radius:13px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#eef2f7;
+  font-size:21px;
+}
+
+.text{
+  flex:1;
+  text-align:left;
+}
+
+.arrow{
+  font-size:25px;
+  color:#777;
+}
+
+.pay{
+  background:#eafff0;
+}
+
+.review{
+  background:#fff8df;
+}
+
+.footer{
+  margin-top:28px;
+  color:#7f8ba0;
+  font-size:12px;
+}
 </style>
 </head>
+
 <body>
-<main class="wrap">
-<div class="logo">KS CAR DETAILING</div>
-<div class="sub">One Scan • Everything You Need</div>
 
-<a class="pay" href="upi://pay?pa=8866935388@okbizaxis&pn=Ks%20Car%20Detailing&mc=7542&ver=01&mode=01" rel="noopener">
-💳 PAY NOW
-<small>Secure UPI payment</small>
+<div class="container">
+
+<div class="logo">KS</div>
+
+<h1>KS Car Detailing Studio</h1>
+
+<div class="subtitle">
+Premium Car Care • Detailing • Ceramic Coating • PPF
+</div>
+
+<a class="button pay"
+href="upi://pay?pa=8866935388@okbizaxis&pn=Ks%20Car%20Detailing">
+<div class="icon">₹</div>
+<div class="text">Pay via Google Pay / UPI</div>
+<div class="arrow">›</div>
 </a>
 
-<a class="insta" href="https://instagram.com/kscardetailing.ahmedabad" target="_blank" rel="noopener">
-📸 INSTAGRAM
-<small>Follow us on Instagram</small>
+<a class="button"
+href="https://youtube.com/@kscarvlog?si=HXcKTeWCoV_7Kk7O"
+target="_blank">
+<div class="icon">▶️</div>
+<div class="text">YouTube</div>
+<div class="arrow">›</div>
 </a>
 
-<a class="yt" href="https://www.youtube.com/@kscarsvlog" target="_blank" rel="noopener">
-▶️ YOUTUBE
-<small>Watch KS Cars Vlog</small>
+<a class="button"
+href="https://www.instagram.com/kscardetailing.ahmedabad?stkn=Y29ya3pramphbWIz&utm_source=qr"
+target="_blank">
+<div class="icon">📸</div>
+<div class="text">Instagram</div>
+<div class="arrow">›</div>
 </a>
 
-<a class="review" href="https://search.google.com/local/writereview?placeid=ChIJ8bMcTvKJXjkR304xVyISZio" target="_blank" rel="noopener">
-⭐ GOOGLE REVIEW
-<small>Rate your experience</small>
+<a class="button"
+href="https://www.google.com/search?q=KS+Car+Detailing+Ahmedabad"
+target="_blank">
+<div class="icon">📍</div>
+<div class="text">Google Business Profile</div>
+<div class="arrow">›</div>
 </a>
 
-<a class="maps" href="https://www.google.com/maps/search/?api=1&query=KS%20Car%20Detailing%20Studio%2C%20Keshav%20Enclave%2C%20Vatva%2C%20Ahmedabad%2C%20Gujarat%20382445" target="_blank" rel="noopener">
-📍 GOOGLE BUSINESS
-<small>Location, hours & directions</small>
+<a class="button review"
+href="https://g.page/r/Cd9OMVciEmYqEBM/review"
+target="_blank">
+<div class="icon">⭐</div>
+<div class="text">Give us a Google Review</div>
+<div class="arrow">›</div>
 </a>
 
-<div class="footer">KS Car Detailing Studio • Ahmedabad</div>
-</main>
+<div class="footer">
+© 2026 KS Car Detailing Studio
+</div>
+
+</div>
+
 </body>
 </html>
